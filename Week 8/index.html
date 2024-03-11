@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+
+    <title>3D Portfolio</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- three.js importmap -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://ga.jspm.io/npm:three@0.158.0/build/three.module.js",
+                "OrbitControls": "https://ga.jspm.io/npm:three@0.158.0/examples/jsm/controls/OrbitControls.js",
+                "lil-gui": "https://ga.jspm.io/npm:lil-gui@0.19.1/dist/lil-gui.esm.js",
+                "GLTFLoader": "https://ga.jspm.io/npm:three@0.158.0/examples/jsm/loaders/GLTFLoader.js"
+            }
+        }
+        
+    </script>
+
+    <!-- three.js -->
+    <script src="script.js" type="module"></script>
+
+</head>
+
+<body>
+
+    <!-- canvas -->
+    <canvas class="webgl"></canvas>
+
+    <!-- splash -->
+    <section class="splash">
+        <h1>Brandon Patel</h1>
+    </section>
+
+    <!-- content -->
+    <section class="content" id="first">
+        <h1>About me</h1>
+        <p>I am a 19 year old student in St. Catharines, Ontario. My life is dedicated to visualizing and creating projects in digital media. </p>
+        <p><span class="clickable" id="click1">View projects</span></p>
+    </section>
+
+    <section class="content hidden" id="second">
+        <h1>Interactive Essay</h1>
+        <p>I did a project recently where I created a 3 dimensional representation of the famous Allegory of the cave, and then wrote all about it in an essay form. It was a cool way to combine the ideas of a 3D scene and an essay.</p>
+        <p><span class="clickable" id="click2">Next project</span></p>
+    </section>
+
+    <section class="content hidden" id="third">
+
+        <h1>Data Visualization</h1>
+        <p>For my next project, I will do a data visualization for the famous short story, "The Lottery" by Shirley Jackson. I am currently in the process of figuring out how to demonstrate this in an educational way just as I did for The Allegory of the Cave.</p>
+        <p><span class="clickable" id="click3">Back to Home</span></p>
+   
+    </section>
+
+    <section class="footer">
+
+        <p>Cubes by Thureb. <a href="https://sketchfab.com/3d-models/cubes-ddfdad5922a449f4abb14ed005d32792#download" target="_blank">View on Sketchfab</a>.</p>
+    
+    </section>
+
+</body>

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cubes
+* source:	https://sketchfab.com/3d-models/cubes-ddfdad5922a449f4abb14ed005d32792
+* author:	Thureb (https://sketchfab.com/Thureb)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cubes" (https://sketchfab.com/3d-models/cubes-ddfdad5922a449f4abb14ed005d32792) by Thureb (https://sketchfab.com/Thureb) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
