@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+
+    <title> Data Visualization Assignment</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- three.js importmap -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://ga.jspm.io/npm:three@0.158.0/build/three.module.js",
+                "OrbitControls": "https://ga.jspm.io/npm:three@0.158.0/examples/jsm/controls/OrbitControls.js",
+                "lil-gui": "https://ga.jspm.io/npm:lil-gui@0.19.1/dist/lil-gui.esm.js"
+            }
+        }
+    </script>
+
+
+    <script src="script.js" type="module"></script>
+
+    <script src="script2.js" type="module"></script>
+</head>
+
+<body>
+    <h1>"The Lottery" by Shirley Jackson</h1>
+
+    <h2>Brandon Patel</h2>
+
+    <p>"The Lottery" by Shirley Jackson is an amazing, chilling short story that demonstrates the dark side of conformity and tradition in a small town. The story is set on a seemingly normal summer day, the townspeople gather for an annual lottery, where one person is chosen by a draw to be stoned to death as a sacrifice for a good harvest. The author, Shirley Jackson builds  a lot of suspense as the lottery unfolds, revealing the crazy willingness of the people in the town to participate in this barbaric ritual without question.</p>
+
+    <p>I selected "The Lottery" for my data visualization project because of its huge impact and thought-provoking themes. By showing some of the data in a visually compelling format, I hope to engage viewers and challenge them to try to see deeper into the story's underlying messages. Specifically, I want to shed light on how dangerous blind conformity is, and also how important societal norms are. The story progresses in such a natural way that it can be difficult to understand the messages after just one or two reads. The suspense is something that drew me into this short story and made me interested to the point where I want to bring more awareness to it. </p>
+    <!-- dataviz 1 -->
+    <div class="canvas-container">
+
+        <h2>Main Characters Mentioned in The Lottery</h2>
+
+        <canvas class="webgl"></canvas>
+
+        <div id="parent1"></div>
+
+        <p>Left click and drag to rotate. Right click and drag to move. Scroll to zoom.</p>
+
+    </div>
+
+    <p>In my visualization project, I assigned colors to represent the frequency of mentions for three key characters in the story, Mr. Summers, Mrs. Hutchinson, and Mr. Graves. The brown dodecahedron symbolize Mr. Summers, who has significant authority as the leader of the lottery, reflecting his central role in the narrative. Mrs. Hutchinson is depicted by beige dodecahedron, signifying her pivotal moment as the chosen victim of the lottery, creating questions about the town's traditions and societal norms. Meanwhile, Mr. Graves is represented by yellow dodecahedron, his involvement in the execution of the lottery and highlighting the collective responsibility of all of the townsfolk in upholding the ritual. By visually presenting each character's frequency of mentions with distinct colors, the visualization allows viewers to grasp the characters' respective impacts on the story's themes of tradition, power dynamics, and the consequences of some customs.</p>
+    
+    <p>From the visualization, we can see the relative importance of characters based on the frequency of their mentions. If Mr. Summers' brown dodecahedron dominate the visualization, the data suggests he has a central role in the narrative. Same thing with Mrs. Hutchinson's beige dodecahedron are sparse compared to Mr. Graves' yellow dodecahedron, it might indicate she has less prominence in the story. Also, the proximity of dodecahedron representing different characters can hint at their interactions or connections within the plot.
+
+    </p>
+    <!-- dataviz 2 -->
+    <div class="canvas-container">
+        <h2>Key Words in the Story</h2>
+        <canvas class="webgl2"></canvas>
+        <div id="parent2"></div>
+        <p>Left click and drag to rotate. Right click and drag to move. Scroll to zoom.</p>
+    </div>
+
+    <p>In the second visualization, I have represented the key words used in the story, village, people and lottery. Words like "village," "people," and "lottery" are crucial because they show where the story happens, who it involves, and what shocking event takes place. "Village" sets the scene in a small community, while "people" highlights the collective actions of the villagers. The word "lottery" reveals the disturbing tradition at the heart of the story, where someone is randomly chosen for a terrible fate. These words help us understand the story's focus on blind conformity, the dangers of tradition, and the chilling reality of human behavior. They're key words guiding us through the unsettling events that unfold in the narrative.</p>
+    
+    <p>I represented the words in spheres, which I animated to oscillate into a perfect cube shape, this demonstrates how all of these words come together to be part of a larger story, or a larger message. The spheres could have been organized in a random way, but the way they animate creates a shape on its own. They are very insightful words. All of the words reflect the group's adherence to tradition, even when it leads to horrifying outcomes. Also, the concept of lottery emphasizes the theme of blindly following tradition, even when it results in violence and injustice.</p>
+
+    <h2>Conclusion</h2>
+
+    <p>These two visualizations provide great insight towars the overall message of the story and are a really way to demonstrate key elements of a short story. If I had more time to reseach and create, I would to have an animation that spells out the word "lottery" using shapes instead of just making one big shape like a cube. I would love to improve my animations by adding multiple elements, such as a background wall to cast shadows on, and more dynamic animations. </p>
+</body>
